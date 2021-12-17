@@ -9,8 +9,8 @@ import { map } from 'rxjs/operators';
 	providers: [NgbCarouselConfig]
 })
 export class NgbdCarouselBasicComponent {
-	showNavigationArrows = false;
-	showNavigationIndicators = false;
+	showNavigationArrows = true;
+	showNavigationIndicators = true;
 
 	constructor(config: NgbCarouselConfig) {
 		// customize default values of carousels used by this component tree

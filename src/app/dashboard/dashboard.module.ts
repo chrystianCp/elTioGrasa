@@ -10,6 +10,7 @@ import { RecentTableComponent } from './dashboard-components/recent-table/recent
 import { RecentCommentsComponent } from './dashboard-components/recent-comments/recent-comments.component';
 
 import { ChatListingComponent } from './dashboard-components/chat-listing/chat-listing.component';
+import { CarouselDashComponent } from './carousel-dash/carousel-dash.component';
 
 
 const routes: Routes = [
@@ -29,7 +30,7 @@ const routes: Routes = [
 @NgModule({
   imports: [FormsModule, CommonModule, RouterModule.forChild(routes), ChartsModule],
   declarations: [DashboardComponent, TotalVariablesComponent, YearlychartComponent, 
-    RecentTableComponent, RecentCommentsComponent, ChatListingComponent]
+    RecentTableComponent, RecentCommentsComponent, ChatListingComponent, CarouselDashComponent]
 })
 export class DashboardModule {
 
