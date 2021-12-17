@@ -1,5 +1,5 @@
 import { Component, AfterViewInit } from '@angular/core';
-import { CarouselDashComponent } from '../dashboard/carousel-dash/carousel-dash.component'
+
 //declare var require: any;
 
 @Component({
