@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "module": "es2020",
-    "outDir": "./dist/out-tsc",
+    "outDir": "docs/out-tsc",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
